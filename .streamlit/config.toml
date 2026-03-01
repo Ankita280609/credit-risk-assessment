@@ -1,0 +1,11 @@
+[theme]
+# The golden-yellow color from your image
+backgroundColor = "#DFCE7E"
+# Darker contrasting color for the sidebar
+secondaryBackgroundColor = "#CBB96B"
+# Primary accent color for buttons and highlights
+primaryColor = "#2B2B2B"
+# Crisp, dark text for maximum readability
+textColor = "#111111"
+# Professional, financial-report style font
+font = "serif"
