@@ -10,12 +10,6 @@ This project involves the design and implementation of an **AI-driven financial 
 
 ---
 
-### Constraints & Requirements
-- **Team Size:** 4 Students
-- **API Budget:** Free Tier Only (Open-source models / Free APIs)
-- **Framework:** LangGraph (Recommended)
-- **Hosting:** Mandatory (Hugging Face Spaces, Streamlit Cloud, or Render)
-
 ### Technology Stack
 | Component | Technology |
 | :--- | :--- |
