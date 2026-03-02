@@ -1,12 +1,11 @@
-# Project: Intelligent Credit Risk Scoring & Agentic Lending Decision Support
-
-## From Predictive Analytics to Automated Financial Decisioning
+# Project 10: Credit Risk Prediction & Agentic Lending Advisor
+## From Financial Risk Modeling to Automated Lending Advice
 
 ### Project Overview
-This project involves the design and implementation of an **AI-driven financial analytics system** that predicts borrower default risk and evolves into an agentic AI lending strategist.
+This project involves the design and implementation of an **AI-driven credit analytics system** that evaluates borrower credit risk and evolves into an agentic AI lending decision support assistant.
 
-- **Milestone 1:** Classical machine learning techniques applied to historical borrower financial data to predict default risk and identify key drivers of credit failure.
-- **Milestone 2:** Extension into an agent-based AI application that autonomously reasons about credit risk, retrieves lending best practices (RAG), and plans approval/rejection strategies.
+- **Milestone 1:** Classical machine learning techniques applied to historical borrower data to predict default probability, assess loan risk, and identify key financial risk drivers.
+- **Milestone 2:** In progress...
 
 ---
 
@@ -17,29 +16,55 @@ This project involves the design and implementation of an **AI-driven financial 
 | **Agent Framework (M2)** | LangGraph, Chroma/FAISS (RAG) |
 | **UI Framework** | Streamlit |
 | **LLMs (M2)** | Open-source models or Free-tier APIs |
+| **Language** | Python 3.13 |
+| **Hosting** | Streamlit Community Cloud |
 
 ---
 
 ### Milestones & Deliverables
 
 #### Milestone 1: ML-Based Credit Risk Prediction (Mid-Sem)
-**Objective:** Identify borrowers at high risk of default using historical financial data focusing on classical ML pipelines *without LLMs*.
+**Objective:** Identify high-risk loan applicants using historical borrower data, focusing on classical ML pipelines *without LLMs*.
 
 **Key Deliverables:**
-- Problem understanding & Business context.
-- System architecture diagram.
-- Working local application with UI (Streamlit).
-- Model performance evaluation report (Accuracy, ROC-AUC, etc.).
+- Problem understanding & business context.
+- System architecture and preprocessing pipeline design.
+- Working deployed application with UI: (https://ankita-credit-risk.streamlit.app/)
+- Model performance evaluation report (Accuracy, ROC-AUC, F1, Confusion Matrix).
 
-#### Milestone 2: Agentic AI Lending Assistant (End-Sem)
-**Objective:** Extend the system into an agentic strategist that reasons about risk and retrieves best practices to generate structured lending recommendations.
+**Results Summary:**
+| Model | Accuracy | ROC-AUC Score | Primary Strength |
+| :--- | :--- | :--- | :--- |
+| Logistic Regression | 0.8151 | 0.8696 | Interpretability & Regulatory Compliance |
+| Random Forest | 0.9331 | 0.9288 | Superior Accuracy & Non-linear Capture |
 
 **Key Deliverables:**
-- **Publicly deployed application:** https://ankita-credit-risk.streamlit.app/
+- **Publicly deployed application** (Link required).
 - Agent workflow documentation (States & Nodes).
-- Structured lending report generation.
+- Structured lending recommendation report generation.
 - GitHub Repository & Complete Codebase.
 - Demo Video (Max 5 mins).
 
 ---
 
+### Team
+| Member | Role | Responsibilities |
+| :--- | :--- | :--- |
+| Himani Pinjani | Data Engineer | Dataset sourcing, cleaning, and exploratory analysis |
+| Ankita Thakur | ML Engineer | Model training, evaluation, and pipeline design |
+| Anshu Yadav | UI Developer & Deployment Lead | Streamlit interface and cloud deployment |
+| Farhana Pervin | Documentation Lead | Performance report and project documentation |
+
+---
+
+### Repository Structure
+```
+CREDIT_RISK_APP/
+├── app.py                        # Streamlit UI and real-time inference logic
+├── train.py                      # Model training, evaluation, and serialization
+├── logistic_model.pkl            # Serialized Logistic Regression pipeline
+├── random_forest_model.pkl       # Serialized Random Forest pipeline
+├── credit_risk_dataset (4).csv   # Raw labelled borrower dataset
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
+```
