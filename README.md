@@ -41,7 +41,7 @@ This project involves the design and implementation of an **AI-driven financial 
 **Objective:** Extend the system into an agentic strategist that reasons about risk and retrieves best practices to generate structured lending recommendations.
 
 **Key Deliverables:**
-- **Publicly deployed application** (Link required): https://ankita-credit-risk.streamlit.app/
+- **Publicly deployed application:** https://ankita-credit-risk.streamlit.app/
 - Agent workflow documentation (States & Nodes).
 - Structured lending report generation.
 - GitHub Repository & Complete Codebase.
