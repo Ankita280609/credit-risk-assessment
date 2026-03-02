@@ -26,13 +26,25 @@ This project involves the design and implementation of an **AI-driven credit ana
 #### Milestone 1: ML-Based Credit Risk Prediction (Mid-Sem)
 **Objective:** Identify high-risk loan applicants using historical borrower data, focusing on classical ML pipelines *without LLMs*.
 
-**Key Deliverables:**
-- Problem understanding & business context.
-- System architecture and preprocessing pipeline design.
-- Working deployed application with UI: [https://ankita-credit-risk.streamlit.app/](https://ankita-credit-risk.streamlit.app/)
-- Model performance evaluation report (Accuracy, ROC-AUC, F1, Confusion Matrix).
-- Demo Video .
+### Key Deliverables
 
+- **Problem Understanding & Business Context**  
+  Clear definition of the financial risk problem, business impact of loan defaults, and the objective of building a data-driven credit risk prediction system.
+
+- **System Architecture & Preprocessing Pipeline Design**  
+  Modular ML architecture using Scikit-Learn `Pipeline` and `ColumnTransformer`, including median imputation, standardization, one-hot encoding (`handle_unknown='ignore'`), class balancing, and leakage-free training–inference consistency.
+
+- **Working Deployed Application with UI**  
+  Live Streamlit web application for real-time borrower risk scoring:  
+  https://ankita-credit-risk.streamlit.app/
+
+- **Model Performance Evaluation Report**
+Comprehensive evaluation using Accuracy, ROC-AUC, F1-score (Macro & Weighted), and Confusion Matrix with class-wise precision and recall analysis.
+https://drive.google.com/file/d/17iUsRswDZUvzuUFtVy4husvHpzSgS6-P/view?usp=drive_link
+  
+- **Demo Video**
+
+  
 **Results Summary:**
 | Model | Accuracy | ROC-AUC Score | Primary Strength |
 | :--- | :--- | :--- | :--- |
