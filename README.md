@@ -1,21 +1,60 @@
-# 🏦 Intelligent Credit Risk Scoring System
+# Project: Intelligent Credit Risk Scoring & Agentic Lending Decision Support
 
-## Overview
-This project is an intelligent machine learning-based credit risk scoring framework integrated with a lending decision support system. It evaluates borrower profiles to predict the probability of loan default using supervised learning algorithms.
+## From Predictive Analytics to Automated Financial Decisioning
 
-**Live Application:** https://ankita-credit-risk.streamlit.app/
+### Project Overview
+This project involves the design and implementation of an **AI-driven financial analytics system** that predicts borrower default risk and evolves into an agentic AI lending strategist.
 
-## System Architecture & Models
-Two models were trained and evaluated on an imbalanced dataset of 32,581 records:
-* **Logistic Regression (Baseline):** Achieved an Accuracy of 81.51% and ROC-AUC of 0.8696.
-* **Random Forest (Primary Engine):** Achieved an Accuracy of 93.31% and ROC-AUC of 0.9288.
+- **Milestone 1:** Classical machine learning techniques applied to historical borrower financial data to predict default risk and identify key drivers of credit failure.
+- **Milestone 2:** Extension into an agent-based AI application that autonomously reasons about credit risk, retrieves lending best practices (RAG), and plans approval/rejection strategies.
 
-A comprehensive preprocessing pipeline was implemented, including median imputation, StandardScaler, and OneHotEncoder.
+---
 
-## Setup Instructions
-To run this project locally, follow these steps:
+### Constraints & Requirements
+- **Team Size:** 4 Students
+- **API Budget:** Free Tier Only (Open-source models / Free APIs)
+- **Framework:** LangGraph (Recommended)
+- **Hosting:** Mandatory (Hugging Face Spaces, Streamlit Cloud, or Render)
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Ankita280609/credit-risk-assessment.git](https://github.com/Ankita280609/credit-risk-assessment.git)
-   cd credit-risk-assessment
+### Technology Stack
+| Component | Technology |
+| :--- | :--- |
+| **ML Models (M1)** | Logistic Regression, Random Forest, Scikit-Learn |
+| **Agent Framework (M2)** | LangGraph, Chroma/FAISS (RAG) |
+| **UI Framework** | Streamlit |
+| **LLMs (M2)** | Open-source models or Free-tier APIs |
+
+---
+
+### Milestones & Deliverables
+
+#### Milestone 1: ML-Based Credit Risk Prediction (Mid-Sem)
+**Objective:** Identify borrowers at high risk of default using historical financial data focusing on classical ML pipelines *without LLMs*.
+
+**Key Deliverables:**
+- Problem understanding & Business context.
+- System architecture diagram.
+- Working local application with UI (Streamlit).
+- Model performance evaluation report (Accuracy, ROC-AUC, etc.).
+
+#### Milestone 2: Agentic AI Lending Assistant (End-Sem)
+**Objective:** Extend the system into an agentic strategist that reasons about risk and retrieves best practices to generate structured lending recommendations.
+
+**Key Deliverables:**
+- **Publicly deployed application** (Link required): https://ankita-credit-risk.streamlit.app/
+- Agent workflow documentation (States & Nodes).
+- Structured lending report generation.
+- GitHub Repository & Complete Codebase.
+- Demo Video (Max 5 mins).
+
+---
+
+### Evaluation Criteria
+
+| Phase | Weight | Criteria |
+| :--- | :--- | :--- |
+| **Mid-Sem** | 25% | ML technique application, Feature Engineering, UI Usability, Evaluation Metrics. |
+| **End-Sem** | 30% | Reasoning quality, RAG & State management implementation, Output clarity, Deployment success. |
+
+> [!WARNING]
+> Localhost-only demonstrations will **not** be accepted for final submission. Project must be hosted.
