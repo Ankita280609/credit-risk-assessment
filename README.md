@@ -43,6 +43,8 @@ Comprehensive evaluation using Accuracy, ROC-AUC, F1-score (Macro & Weighted), a
 https://drive.google.com/file/d/17iUsRswDZUvzuUFtVy4husvHpzSgS6-P/view?usp=drive_link
   
 - **Demo Video**
+Project walkthrough explaining problem framing, model comparison, architecture design, evaluation results, and live application demonstration.
+https://drive.google.com/file/d/1aTHhgG7fid_rjUPBAxj-tRaSX-6TD0KZ/view?usp=drive_link 
 
   
 **Results Summary:**
