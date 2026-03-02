@@ -29,21 +29,15 @@ This project involves the design and implementation of an **AI-driven credit ana
 **Key Deliverables:**
 - Problem understanding & business context.
 - System architecture and preprocessing pipeline design.
-- Working deployed application with UI: (https://ankita-credit-risk.streamlit.app/)
+- Working deployed application with UI: [https://ankita-credit-risk.streamlit.app/](https://ankita-credit-risk.streamlit.app/)
 - Model performance evaluation report (Accuracy, ROC-AUC, F1, Confusion Matrix).
+- Demo Video .
 
 **Results Summary:**
 | Model | Accuracy | ROC-AUC Score | Primary Strength |
 | :--- | :--- | :--- | :--- |
 | Logistic Regression | 0.8151 | 0.8696 | Interpretability & Regulatory Compliance |
 | Random Forest | 0.9331 | 0.9288 | Superior Accuracy & Non-linear Capture |
-
-**Key Deliverables:**
-- **Publicly deployed application** (Link required).
-- Agent workflow documentation (States & Nodes).
-- Structured lending recommendation report generation.
-- GitHub Repository & Complete Codebase.
-- Demo Video (Max 5 mins).
 
 ---
 
